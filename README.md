@@ -1,7 +1,7 @@
 # What is ismalloc ? 🧠 
 
-`ismalloc()` is a hand made C function that replace malloc, and free every ismalloced function at the end of your program.
-The objective of this func is to prevent every memory leaks in my Epitech's projects.
+`ismalloc()` is a hand made C function that replace malloc, and free every ismalloced memory spaces at the end of your program.
+The objective of this function is to prevent every memory leaks in my Epitech's projects.
 
 <p align="center">
     <br/>
