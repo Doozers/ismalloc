@@ -18,7 +18,7 @@ static ismalist_t *get_malloc(void *new_head)
 static void frisma(void)
 {
     ismalist_t *head = get_malloc(NULL);
-    void *prev_to_free = head;
+    void *prev_to_free;
     void *head_void = head;
     while (head) {
         if (head->adress)
