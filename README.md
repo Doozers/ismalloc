@@ -13,7 +13,7 @@ The objective of this func is to prevent every memory leaks in my Epitech's proj
 ## How does it work ? 🔩
 
 The `ismalloc()` function return the memory space passed as argument. It also add the adress of the memory space at the top of a linked list.
-At the end of the programm, thanks to the attribute destructor the function `frisma()` is called and free the every adress of the list before to 
+At the end of the programm, thanks to the attribute destructor the function `frisma()` is called and free every adress of the list before to 
 free the list itself.
 
 ## Exemple ⚡
